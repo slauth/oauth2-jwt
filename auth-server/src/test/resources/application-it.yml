@@ -1,0 +1,10 @@
+oauth:
+  keystore:
+    location: ${project.build.testOutputDirectory}/keystore.jks
+    password: oauth2-jwt
+  key:
+    alias: oauth2-jwt
+    password: oauth2-jwt
+  revocations:
+    cluster:
+      ttl: 3600
